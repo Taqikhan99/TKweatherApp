@@ -64,28 +64,28 @@ function showWeatherReport(weather){
 
     // setting background based on weather type
     if(weatherType.textContent=='Clouds'){
-        document.body.style.backgroundImage='url("/images/cloudyback.jpg")';
-        weatherIcon.src='/images/005-cloudy.png';
+        document.body.style.backgroundImage='url("images/cloudyback.jpg")';
+        weatherIcon.src='images/005-cloudy.png';
     }
     else if(weatherType.textContent=='Clear'){
-        document.body.style.backgroundImage='url("/images/sunnyback.jpg")';
-        weatherIcon.src='/images/003-sunny.png';
+        document.body.style.backgroundImage='url("images/sunnyback.jpg")';
+        weatherIcon.src='images/003-sunny.png';
     }
     else if(weatherType.textContent=='Rain'){
-        document.body.style.backgroundImage='url("/images/rainyback.jpg")';
-        weatherIcon.src='/images/009-rainy.png';
+        document.body.style.backgroundImage='url("images/rainyback.jpg")';
+        weatherIcon.src='images/009-rainy.png';
     }
     else if(weatherType.textContent=='Snow'){
-        document.body.style.backgroundImage='url("/images/snowback.jpg")';
-        weatherIcon.src='/images/006-snowy.png';
+        document.body.style.backgroundImage='url("images/snowback.jpg")';
+        weatherIcon.src='images/006-snowy.png';
     }
     else if(weatherType.textContent=='Haze'){
-        document.body.style.backgroundImage='url("/images/haze.jpg")';
-        weatherIcon.src='/images/007-windy.png';
+        document.body.style.backgroundImage='url("images/haze.jpg")';
+        weatherIcon.src='images/007-windy.png';
     }
     else if(weatherType.textContent=='Thunderstorm'){
-        document.body.style.backgroundImage='url("/images/thunderback.jpg")';
-        weatherIcon.src='/images/004-thunderstorm.png';
+        document.body.style.backgroundImage='url("images/thunderback.jpg")';
+        weatherIcon.src='images/004-thunderstorm.png';
     }
 
 }
